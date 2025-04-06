@@ -1,0 +1,28 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  background-color: snow;
+  gap: 10px;
+  color: rgb(16, 134, 16);
+}
+
+.green_btn {
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  background-color: #3bb19b;
+  border-radius: 20px;
+  width: 180px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.success_img {
+  border-radius: 50%;
+}

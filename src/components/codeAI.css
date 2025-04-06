@@ -1,0 +1,94 @@
+.codeAi {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+.codeAILogB {
+  border-radius: 50%;
+  background-image: url("../assets/CodeAI.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.acadMe {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+.acadmeLogB {
+  border-radius: 50%;
+  background-image: url("../assets/AcadMe.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gradeUp {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+.gradeUpLogB {
+  border-radius: 50%;
+  background-image: url("../assets/GradeUp.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.convox {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+.convoxLogB {
+  border-radius: 50%;
+  background-image: url("../assets/ConvoX.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.daylog {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+.daylogLogB {
+  border-radius: 50%;
+  background-image: url("../assets/DayLog.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

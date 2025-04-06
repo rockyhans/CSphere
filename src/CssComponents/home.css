@@ -1,0 +1,344 @@
+.middlePage {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../assets/backgroundImage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.loginPop {
+  height: 110vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(10, 9, 9, 0.2);
+}
+
+.loginPop2nd {
+  height: 30%;
+  width: 30%;
+  background-color: #001d24;
+  border-radius: 10px;
+  color: green;
+  text-align: center;
+  padding: 5px;
+}
+
+.loginPop2nd h1 {
+  color: rgb(1, 251, 1);
+}
+
+.loginPop2nd li {
+  text-align: left;
+  color: rgb(1, 251, 1);
+}
+
+.loginPop2nd button {
+  width: 160px;
+  height: 35px;
+  font-weight: bold;
+  border: none;
+  background: #013441;
+  border-radius: 10px;
+  color: snow;
+  font-size: 20px;
+  transition: box-shadow 0.4s ease-in-out;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.loginPop2nd button:hover {
+  box-shadow: 0px 0px 10px skyblue;
+}
+
+.secHeaderM {
+  height: 45px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.323);
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(20px);
+}
+
+.ownPage {
+  height: 90%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.googleSearchP {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.googleSearch {
+  height: 57px;
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.google {
+  height: 100%;
+  width: 50%;
+  border-radius: 30px;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(100px);
+  background-color: #001d24;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: width 0.25s ease-in-out, height 0.25s ease-in-out;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  transition: 0.3s ease-in-out;
+  animation: box-shaddow 3s infinite linear;
+}
+.google:hover {
+  height: 60px;
+  width: 52%;
+}
+
+@keyframes shadowRotate {
+  0% {
+    box-shadow: 0px 0px 100px rgb(0, 5, 39);
+  }
+
+  100% {
+    box-shadow: 0px 0px 10px grey;
+  }
+}
+
+.input {
+  height: 90%;
+  width: 99%;
+  border-radius: 30px;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  background-color: transparent;
+  color: snow;
+  font-size: 1.3rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.ownUpper {
+  height: 250px;
+  width: 100%;
+  color: red;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.divP {
+  height: 86%;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.vsCode {
+  height: 85%;
+  width: 190px;
+  background-color: #001d24;
+  border-radius: 20px;
+  transition: padding 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.vsCode:hover {
+  padding: 3px;
+}
+
+.pageFooter {
+  height: 40px;
+  width: 100%;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(50px);
+  background-color: rgba(0, 0, 0, 0.323);
+}
+
+.imgDiv {
+  height: 100px;
+  width: 160px;
+  background-color: #013441;
+  border-radius: 10px;
+}
+
+.vsCode button {
+  width: 160px;
+  height: 35px;
+  font-weight: bold;
+  border: none;
+  background: #013441;
+  border-radius: 10px;
+  color: snow;
+  font-size: 20px;
+  transition: box-shadow 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.vsCode button:hover {
+  box-shadow: 0px 0px 10px skyblue;
+}
+
+.codeAiImg {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.plus {
+  height: 50%;
+  width: 50%;
+  color: #001d24;
+  display: flex;
+  font-size: 4rem;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(10px);
+  background-color: #001d2484;
+  text-align: center;
+  border-radius: 50%;
+  transition: padding 0.4s ease-in-out;
+}
+
+.plus:hover {
+  padding: 5px;
+  color: aqua;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.box:hover {
+  animation: shadowRotate 1.5s infinite linear;
+}
+
+.plus p {
+  text-align: center;
+  cursor: pointer;
+  margin-top: 50%;
+  font-weight: bold;
+  position: absolute;
+  transition: color 0.7s ease-in-out;
+}
+
+/* Popup styling */
+.popup {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 110vh;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(10, 9, 9, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.popup-content {
+  height: 100px;
+  width: 450px;
+  background-color: #001d24;
+  text-align: center;
+  position: relative;
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(3, 253, 3);
+}
+
+.hiii {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: red;
+}
+
+/* Initial blur effect */
+.home-container {
+  opacity: 0;
+  filter: blur(10px);
+  transition: opacity 1s ease-out, filter 1s ease-out;
+}
+
+/* When page is fully loaded */
+.home-container.visible {
+  opacity: 1;
+  filter: blur(0);
+}
+
+/* Fade-in effect for elements */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

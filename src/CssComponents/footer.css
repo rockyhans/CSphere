@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+.footer div {
+  margin-top: 2px;
+  padding: 7px;
+  border-radius: 20px;
+}
