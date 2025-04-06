@@ -9,13 +9,13 @@ const Login = ({ setErrorL }) => {
     setData({ ...data, [input.name]: input.value });
   };
 
-  const handleSubmit = async (e) => { 
+  const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const url = "https://my-backend-app-snxz.onrender.com/api/auth";
       const { data: res } = await axios.post(url, data);
       localStorage.setItem("token", res.data);
-      localStorage.removeItem("hasSeenInstructions");
+      localStorage.setItem("hasSeenInstructions", "false");
       window.location = "/";
     } catch (error) {
       if (

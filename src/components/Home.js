@@ -30,8 +30,10 @@ function Home() {
   const [showInstructions, setShowInstructions] = useState(false);
 
   useEffect(() => {
+    const token = localStorage.getItem("token"); // Or however you store login info
     const hasSeen = localStorage.getItem("hasSeenInstructions");
-    if (!hasSeen) {
+
+    if (token && hasSeen !== "true") {
       setShowInstructions(true);
     }
   }, []);

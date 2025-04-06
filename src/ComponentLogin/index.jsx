@@ -2,20 +2,22 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./styles.module.css";
 
-
 function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
-  const handleLogin = async (e) => { 
+  const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://my-backend-app-snxz.onrender.com/api/auth", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password }),
-      });
+      const response = await fetch(
+        "https://my-backend-app-snxz.onrender.com/api/auth",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email, password }),
+        }
+      );
 
       const data = await response.json();
 
@@ -43,7 +45,6 @@ function SignIn() {
               placeholder="Email"
               name="email"
               className={`${styles.input} ${styles["fade-on"]}`}
-
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
