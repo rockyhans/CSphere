@@ -498,7 +498,7 @@ function JavaCompiler() {
                     className="output"
                     value={output}
                     style={{
-                      height: isFullHeight ? "280px" : "",
+                      height: isFullHeight ? "320px" : "",
                     }}
                     disabled
                   />
@@ -507,7 +507,7 @@ function JavaCompiler() {
                   <div
                     className={pos === "output" ? "output active" : "output"}
                     style={{
-                      height: isFullHeight ? "280px" : "",
+                      height: isFullHeight ? "320px" : "",
                     }}
                   >
                     <div

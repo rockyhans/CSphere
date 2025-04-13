@@ -516,7 +516,7 @@ function PythonCompiler() {
                     className="output"
                     value={output}
                     style={{
-                      height: isFullHeight ? "400px" : "",
+                      height: isFullHeight ? "320px" : "",
                     }}
                     disabled
                   />
@@ -525,7 +525,7 @@ function PythonCompiler() {
                   <div
                     className={pos === "output" ? "output active" : "output"}
                     style={{
-                      height: isFullHeight ? "400px" : "",
+                      height: isFullHeight ? "320px" : "",
                     }}
                   >
                     <div
