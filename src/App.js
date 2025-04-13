@@ -17,6 +17,8 @@ import GradeUp from "./components/GradeUp";
 import ConVox from "./components/ConVox";
 import DayLog from "./components/DayLog";
 import NotFound from "./components/NotFound";
+import Compiler from "./codeAi/components/Compilers";
+import Inst from "./codeAi/components/Inst";
 
 function App() {
   const [isAllowed, setIsAllowed] = useState(window.innerWidth >= 1000);
@@ -63,6 +65,8 @@ function App() {
           <Route path="/conVox" element={<ConVox />} />
           <Route path="/dayLog" element={<DayLog />} />
           <Route path="/notFoundPage" element={<NotFound />} />
+          <Route path="/Compilers" element={<Compiler />} />
+          <Route path="/Inst" element={<Inst />} />
         </Routes>
       </BrowserRouter>
     </>

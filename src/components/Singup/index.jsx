@@ -16,7 +16,7 @@ const Signup = () => {
   const [msg, setMsg] = useState("");
   const [loginError, setLoginError] = useState("");
 
-  const handleChange = ({ currentTarget: input }) => {
+  const handleChange = ({ currentTarget: input }) => { 
     setData({ ...data, [input.name]: input.value });
   };
 

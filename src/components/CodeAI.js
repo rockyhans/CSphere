@@ -1,5 +1,5 @@
 import React from "react";
-import Login from "../ComponentLogin";
+import Login from "../codeAi/ComponentLogin";
 import "./codeAI.css";
 import { Helmet } from "react-helmet-async";
 

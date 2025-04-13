@@ -22,15 +22,15 @@ function SignIn() {
       const data = await response.json();
 
       if (data.token) {
-        localStorage.setItem("token", data.token); 
+        localStorage.setItem("token", data.token);
         alert("Login successful");
-        navigate("/notFoundPage");
+        navigate("/Compilers");
       } else {
         console.error("No token received");
         alert(data.message || "Login failed");
       }
     } catch (error) {
-      console.error("Login error:", error);
+      console.error("Login error:", error); 
       alert("Something went wrong. Please try again.");
     }
   };
