@@ -108,7 +108,7 @@ function CCompiler() {
 
     try {
       const res = await axios.post(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCok-7EJjFVuirqtP0Rzzpi5u-im4zvuYA",
+        "generativelanguage.gfggg.com/",
         {
           contents: [{ parts: [{ text: logOutput }] }],
         },

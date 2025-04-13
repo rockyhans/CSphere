@@ -116,7 +116,6 @@ pre {
   border-radius: 10px;
   border-bottom: 3px solid #014e60;
   border-top: 3px solid #014e60;
-
 }
 
 .aiAnsTextarea {
@@ -137,7 +136,7 @@ pre {
   display: none;
 }
 
-.ele2AiPage{
+.ele2AiPage {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -193,7 +192,6 @@ pre {
 .colorChangeBtn.clicked {
   background-color: #02f4fd;
 }
-
 
 .ele22 {
   height: 250px;
@@ -289,7 +287,7 @@ pre {
   gap: 10px;
   color: snow;
   border-bottom: 1px solid snow;
-padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .iptDiv h3 {
@@ -337,9 +335,8 @@ padding-bottom: 10px;
   background-color: rgba(11, 11, 11, 0.7);
 }
 
-.input-textarea::-webkit-scrollbar{
+.input-textarea::-webkit-scrollbar {
   display: none;
-
 }
 
 .error {
@@ -364,10 +361,8 @@ padding-bottom: 10px;
   border-top: 3px solid #014e60;
   background-color: rgba(0, 0, 0, 0.1);
 
-
   margin-top: 10px;
   border-radius: 7px;
-
 }
 
 h1 {
@@ -763,7 +758,6 @@ pre {
   margin-top: 20px;
 }
 
-
 pre {
   white-space: pre-wrap; /* Preserve whitespace and wrap text */
   word-wrap: break-word; /* Break long words */
@@ -999,7 +993,6 @@ textarea.tetxA {
   border-radius: 5px;
 } */
 
-
 .oxxxx {
   display: flex;
   flex-direction: column;
@@ -1008,22 +1001,14 @@ textarea.tetxA {
   /* background-color: gainsboro; */
   width: 100%;
   padding-bottom: 10px;
-
 }
-
 
 .oxxxx button {
   background-color: transparent;
-  
+
   transition: background-color 0.7s ease;
   border: 2px solid aqua;
 }
-
-
-
-
-
-
 
 .fffff {
   display: flex;
@@ -1031,11 +1016,7 @@ textarea.tetxA {
   align-items: center;
   align-content: center;
   justify-content: space-evenly;
-
 }
-
-
-
 
 .ai-answer-btn.active {
   background-color: aqua;
@@ -1088,9 +1069,7 @@ textarea.tetxA {
   color: black;
 }
 
-
-
-.fullscreen{
+.fullscreen {
   /* background-color: red; */
   position: fixed;
   height: 100vh;
@@ -1105,8 +1084,7 @@ textarea.tetxA {
   background-color: #002f39b6;
 }
 
-.editorFull{
-
+.editorFull {
   border: 1px solid #ccc;
   width: 98%;
   margin-left: 1%;
@@ -1117,5 +1095,4 @@ textarea.tetxA {
   overflow: auto !important;
   background-color: #002f39;
   border-radius: 10px;
-
 }
