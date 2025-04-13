@@ -105,7 +105,7 @@ pre {
 .aiAnsTextareaDiv {
   height: 350px; /* or use max-height */
   width: 95%;
-  margin-left: 2.5%;
+  margin-left: 1.5%;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
