@@ -1,7 +1,7 @@
 <h1 align="center" style="color:#2c3e50;">🧠 CSphere</h1>
 
 <p align="center">
-  <img src="./CSpherePre.png" alt="CSphere Preview" width="600"/>
+  <img src="./CSpherePre.png" alt="CSphere Preview" width="700"/>
 </p>
 
 <p align="center">
@@ -113,6 +113,8 @@ Stay tuned for updates!
 👤 Contributors
 <table> <tr> <td align="center"> <img src="https://avatars.githubusercontent.com/u/164065390?v=4" width="80px;" alt="Danish Rizwan"/> <br /><sub><b>Danish Rizwan</b></sub><br /> <sub>Full-Stack Developer</sub> </td> </tr> </table>
 📬 Contact
+<br>
 📧 Email: rdanishrizwan@example.com
+<br>
 💼 Team: CSphere Dev Core
 
