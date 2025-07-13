@@ -100,7 +100,8 @@ cd ../client
 npm install
 ```
 App will be running at:
-Frontend → http://localhost:3000
+<br>
+Frontend → http://localhost:3000 
 Backend → http://localhost:5000
 
 📅 Project Status
