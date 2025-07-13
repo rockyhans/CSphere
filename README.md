@@ -34,10 +34,6 @@ It combines essential learning modules with community features, aiming to stream
 
 - 📝 **Personal Notes & Diary**  
   Document your learning journey with daily notes and reflections.
-
-- 📱 **Mobile-Responsive Interface**  
-  Fully optimized UI for seamless experience across devices.
-
 ---
 
 ## 🛠️ Tech Stack
