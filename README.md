@@ -52,7 +52,7 @@ It combines essential learning modules with community features, aiming to stream
 ## 🚀 Live Demo
 
 🌐 **App Link (Coming Soon):**  
-[🔗 CSphere]((https://c-sphere-jade.vercel.app/)) *(under development)*
+[🔗 CSphere] ( https://c-sphere-jade.vercel.app/ )*(under development)*
 
 ---
 
