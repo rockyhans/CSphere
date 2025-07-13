@@ -1,123 +1,117 @@
-<h1 align="center" style="color:#2c3e50;">💹 Bluestock Fintech</h1>
+<h1 align="center" style="color:#2c3e50;">🧠 CSphere</h1>
 
 <p align="center">
-  <img src="./src/assets/Github-Images/Preview-Image.png" alt="Bluestock Preview" width="600"/>
+  <img src="./src/assets/Github-Images/CSphere-Preview.png" alt="CSphere Preview" width="600"/>
 </p>
 
 <p align="center">
-  <b>A sleek, production-ready frontend for Bluestock's IPO analytics platform.</b><br>
-  Built with Angular & Bootstrap, this app offers real-time IPO insights, tracking, and document access.
+  <b>An all-in-one learning platform tailored for beginner Computer Science students.</b><br>
+  Offers curated programming courses, AI coding assistant, social interaction, and internship discovery.
 </p>
 
 ---
 
 ## 📄 About the Project
 
-Bluestock is a production-level frontend application built for Bluestock Fintech.  
-It displays IPO data in a clean, responsive interface — helping investors track public offerings.  
-This app powers both our platform and client dashboards with structured IPO insights.
+**CSphere** is a comprehensive educational and networking platform built to support students beginning their Computer Science journey.  
+It combines essential learning modules with community features, aiming to streamline the transition from learning to earning.
 
 ---
 
 ## 🌟 Features
 
-- 📊 **Detailed IPO Listings**  
-  Company logo, name, price band, issue type and size, key dates, listing gains & status.
+- 📚 **Curated Programming Courses**  
+  Learn C, C++, Java, Python, Web Development, and more — all in one place.
 
-- 📈 **Live Market Metrics**  
-  IPO price, listing price, current CMP, and auto-calculated returns.
+- 🤖 **AI-Powered Coding Assistant**  
+  Get real-time code suggestions and debugging help from an AI-based support system.
 
-- 📎 **Downloadable Documents**  
-  Instant access to RHP and DRHP PDFs for every IPO.
+- 🗨️ **Social Networking for Developers**  
+  Connect, chat, and share updates with peers, mentors, and industry experts.
 
-- 💻 **Responsive UI**  
-  Fully optimized for both desktop and mobile screens.
+- 🧳 **Internship Discovery Portal**  
+  Explore curated internship opportunities, apply directly, and track your progress.
 
-- 🌐 **Easy Embeds for Clients**  
-  Designed for integration into third-party apps and platforms.
+- 📝 **Personal Notes & Diary**  
+  Document your learning journey with daily notes and reflections.
+
+- 📱 **Mobile-Responsive Interface**  
+  Fully optimized UI for seamless experience across devices.
 
 ---
 
 ## 🛠️ Tech Stack
 
-> This repository contains the **frontend only**.
+> This repository contains the **full-stack application**.
 
-- 🎯 **Framework:** Angular (standalone components)
-- 🎨 **Styling:** Bootstrap 5
-- 🧩 **Icons & Assets:** Bootstrap Icons, Custom Assets
-- 🔗 **API:** Connected to Bluestock’s secure REST API
+- ⚛️ **Frontend:** React + Vite  
+- 🎨 **Styling:** Tailwind CSS  
+- 🧠 **AI Module:** Custom CodeAI support  
+- 🌐 **Backend:** Node.js + Express.js  
+- 🗃️ **Database:** MongoDB  
+- 🔒 **Authentication:** Session-based with reCAPTCHA and OAuth
 
 ---
 
 ## 🚀 Live Demo
 
-🌐 **App Link:**  
-[🔗 Bluestock-Fintech.app](https://bluestock-fintech-phi.vercel.app/)
+🌐 **App Link (Coming Soon):**  
+[🔗 csphere-learning.app](https://csphere-learning.app) *(under development)*
 
 ---
 
 ## 📁 Project Structure
 ```bash
-bluestock-frontend/
-├── src/
-│ ├── app/
+csphere/
+├── client/                  # React + Vite Frontend
+│ ├── src/
 │ │ ├── components/
+│ │ ├── pages/
 │ │ ├── services/
-│ ├── assets/
-│ │ ├── Github-Images/
-│ │ │ └── Preview-Image.png
+│ │ ├── assets/
 │ └── index.html
-├── angular.json
+├── server/                  # Express Backend
+│ ├── routes/
+│ ├── controllers/
+│ ├── models/
+│ └── index.js
+├── .env.example
 ├── package.json
 ```
----
+⚙️ Getting Started
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/CSphere.git
+bash
+Copy
+Edit
+cd csphere
+2️⃣ Setup Environment Variables
+Create a .env file from .env.example and configure your MongoDB URI, session secrets, API keys, etc.
 
-## ⚙️ Getting Started
-
-```bash
-// environment.example.ts
-export const environment = {
-  production: false,
-  apiUrl: 'http://your-api-url.com',
-  googleSigninUrl: 'https://your-api-url.com/OAuth/account/google/login',
-  googleSignupUrl: 'https://your-api-url.com/OAuth/account/google/signup',
-  recaptchaSiteKey: 'YOUR_RECAPTCHA_SITE_KEY'
-};
-```
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/rockyhans/Bluestock-Fintech.git
-```
-```bash
-cd bluestock-frontend
-```
-
-  
-2️⃣ Install Dependencies
-```bash 
+3️⃣ Install Dependencies
+# For backend
+cd server
 npm install
-```
 
-3️⃣ Run Locally
-```bash
-ng serve
-```
-App will be running at: http://localhost:4200
+# For frontend
+cd ../client
+npm install
+App will be running at:
+Frontend → http://localhost:5173
+Backend → http://localhost:5000
 
+📅 Project Status
+This project is currently ongoing and actively under development.
+New features will be released regularly, including enhanced AI tools, user dashboards, and internship matching algorithms.
 
-### 🌍 Hosting Info
-The frontend is hosted on Vercel
-- [[ Bluestock Fintech - IPO Web Application](https://bluestock-fintech-phi.vercel.app/)]
+Stay tuned for updates!
 
 👤 Contributors
-<table> <tr> <td align="center"> <img src="https://avatars.githubusercontent.com/u/164065390?v=4" width="80px;" alt="Danish Rizwan"/> <br /><sub><b>Danish Rizwan</b></sub><br /> <sub>Frontend Developer</sub> </td> </tr> </table>
-
+<table> <tr> <td align="center"> <img src="https://avatars.githubusercontent.com/u/164065390?v=4" width="80px;" alt="Danish Rizwan"/> <br /><sub><b>Danish Rizwan</b></sub><br /> <sub>Full-Stack Developer</sub> </td> </tr> </table>
 📬 Contact
-<br>
 📧 Email: rdanishrizwan@example.com
-<br>
-💼 Team: Bluestock Fintech
-
+💼 Team: CSphere Dev Core
 
