@@ -89,12 +89,16 @@ Create a .env file from .env.example and configure your MongoDB URI, session sec
 
 3️⃣ Install Dependencies
 # For backend
+```
 cd server
 npm install
+```
 
 # For frontend
+```
 cd ../client
 npm install
+```
 App will be running at:
 Frontend → http://localhost:3000
 Backend → http://localhost:5000
