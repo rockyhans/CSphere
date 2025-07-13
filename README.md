@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+<h1 align="center" style="color:#2c3e50;">💹 Bluestock Fintech</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="./src/assets/Github-Images/Preview-Image.png" alt="Bluestock Preview" width="600"/>
+</p>
 
-## Available Scripts
+<p align="center">
+  <b>A sleek, production-ready frontend for Bluestock's IPO analytics platform.</b><br>
+  Built with Angular & Bootstrap, this app offers real-time IPO insights, tracking, and document access.
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📄 About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Bluestock is a production-level frontend application built for Bluestock Fintech.  
+It displays IPO data in a clean, responsive interface — helping investors track public offerings.  
+This app powers both our platform and client dashboards with structured IPO insights.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🌟 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 📊 **Detailed IPO Listings**  
+  Company logo, name, price band, issue type and size, key dates, listing gains & status.
 
-### `npm run build`
+- 📈 **Live Market Metrics**  
+  IPO price, listing price, current CMP, and auto-calculated returns.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 📎 **Downloadable Documents**  
+  Instant access to RHP and DRHP PDFs for every IPO.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 💻 **Responsive UI**  
+  Fully optimized for both desktop and mobile screens.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🌐 **Easy Embeds for Clients**  
+  Designed for integration into third-party apps and platforms.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> This repository contains the **frontend only**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 🎯 **Framework:** Angular (standalone components)
+- 🎨 **Styling:** Bootstrap 5
+- 🧩 **Icons & Assets:** Bootstrap Icons, Custom Assets
+- 🔗 **API:** Connected to Bluestock’s secure REST API
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Live Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🌐 **App Link:**  
+[🔗 Bluestock-Fintech.app](https://bluestock-fintech-phi.vercel.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📁 Project Structure
+```bash
+bluestock-frontend/
+├── src/
+│ ├── app/
+│ │ ├── components/
+│ │ ├── services/
+│ ├── assets/
+│ │ ├── Github-Images/
+│ │ │ └── Preview-Image.png
+│ └── index.html
+├── angular.json
+├── package.json
+```
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ⚙️ Getting Started
 
-### Analyzing the Bundle Size
+```bash
+// environment.example.ts
+export const environment = {
+  production: false,
+  apiUrl: 'http://your-api-url.com',
+  googleSigninUrl: 'https://your-api-url.com/OAuth/account/google/login',
+  googleSignupUrl: 'https://your-api-url.com/OAuth/account/google/signup',
+  recaptchaSiteKey: 'YOUR_RECAPTCHA_SITE_KEY'
+};
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 1️⃣ Clone the Repository
 
-### Making a Progressive Web App
+```bash
+git clone https://github.com/rockyhans/Bluestock-Fintech.git
+```
+```bash
+cd bluestock-frontend
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  
+2️⃣ Install Dependencies
+```bash 
+npm install
+```
 
-### Advanced Configuration
+3️⃣ Run Locally
+```bash
+ng serve
+```
+App will be running at: http://localhost:4200
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### 🌍 Hosting Info
+The frontend is hosted on Vercel
+- [[ Bluestock Fintech - IPO Web Application](https://bluestock-fintech-phi.vercel.app/)]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+👤 Contributors
+<table> <tr> <td align="center"> <img src="https://avatars.githubusercontent.com/u/164065390?v=4" width="80px;" alt="Danish Rizwan"/> <br /><sub><b>Danish Rizwan</b></sub><br /> <sub>Frontend Developer</sub> </td> </tr> </table>
 
-### `npm run build` fails to minify
+📬 Contact
+<br>
+📧 Email: rdanishrizwan@example.com
+<br>
+💼 Team: Bluestock Fintech
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
