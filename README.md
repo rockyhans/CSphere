@@ -96,7 +96,7 @@ npm install
 
 # For frontend
 ```
-cd ../client
+cd app
 npm install
 ```
 App will be running at:
