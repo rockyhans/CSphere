@@ -52,7 +52,7 @@ It combines essential learning modules with community features, aiming to stream
 ## 🚀 Live Demo
 
 🌐 **App Link (Coming Soon):**  
-[🔗 CSphere] ( https://c-sphere-jade.vercel.app/ )*(under development)*
+[🔗 CSphere] https://c-sphere-jade.vercel.app/ *(under development)*
 
 ---
 
@@ -79,7 +79,7 @@ csphere/
 bash
 Copy
 Edit
-git clone https://github.com/your-username/CSphere.git
+git clone https://github.com/rockyhans/CSphere
 bash
 Copy
 Edit
@@ -96,7 +96,7 @@ npm install
 cd ../client
 npm install
 App will be running at:
-Frontend → http://localhost:5173
+Frontend → http://localhost:3000
 Backend → http://localhost:5000
 
 📅 Project Status
